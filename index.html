@@ -1,6 +1,22 @@
 <html>
   <head></head>
   <body>
-    Github test
+    <h1>Question time!</h1>
+    <script>
+    var userName = prompt("What is your name?");
+     console.log('the user\'s name is ' + userName);
+    alert("Hello there, " + userName + ", I'm going to ask you a question.");
+
+    var answer1 = prompt(userName + ", this is a question so please answer with Y or N. Does Sam have 4 cats?");
+     console.log('The user answered question 1: ' + answer1);
+
+    if(answer1 === "N") {
+      alert("You are correct, " + userName +". Sam has only 3 cats");
+    } else {
+      alert("Sorry, " + userName + ", Sam doesn't have that many cats; he isn't that crazy.");
+    }
+    
+
+    </script>
   </body>
 </html>
